@@ -16,7 +16,8 @@
     "Deployment IPs replaced with RFC 5737 documentation addresses",
     "Personal deployment paths and SSH account defaults replaced with example locations/accounts",
     "Route interface example changed to eth0",
-    "HTTPS test TLS generator path updated for repository layout"
+    "HTTPS test TLS generator path updated for repository layout",
+    "Policy display labels translated from Korean to English; algorithm behavior unchanged"
   ],
   "algorithm_logic_changed": false,
   "files": [
@@ -28,7 +29,7 @@
     {
       "file": "cache/experiment.py",
       "source_sha256": "b0643178151d625a60797cc8e5a47a481d92b1e2baafe656a976c9e009424fbc",
-      "published_sha256": "4e0455478dd0490c57d916596ad6683cd3b78ef3f82a0b13c1f95835e9b04d79"
+      "published_sha256": "671b66dd8bd2b3a09aa6d4cdecd08133305d328ef33c96c66dc48f56eaf423bc"
     },
     {
       "file": "cache/cache_transport.py",
