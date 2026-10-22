@@ -1,0 +1,21 @@
+[Unit]
+Description=On-time caching hourly comparison
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=CHANGE_ME
+Group=CHANGE_ME
+WorkingDirectory=/opt/ontime-cache-poc
+ExecStart=/bin/bash /opt/ontime-cache-poc/config/controller.example.sh
+Restart=always
+RestartSec=15
+TimeoutStopSec=90
+KillMode=control-group
+UMask=0077
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=multi-user.target

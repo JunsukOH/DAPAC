@@ -1,0 +1,9 @@
+{
+  "listen_address": "198.51.100.10",
+  "listen_port": 443,
+  "allowed_source": "192.0.2.20",
+  "tls_ca": "/etc/ontime-cache-poc/server/ca.crt",
+  "tls_cert": "/etc/ontime-cache-poc/server/server.crt",
+  "tls_key": "/etc/ontime-cache-poc/server/server.key",
+  "cache_origin_mbps": 100
+}

@@ -1,0 +1,94 @@
+{
+  "snapshot_at_utc": "2026-10-22T12:01:02.553568+00:00",
+  "algorithm_revision": "ack-committed-v3",
+  "playback_model": "per-user-video-resume-v2",
+  "runtime_profile": {
+    "experiment_id": "margin-1s",
+    "prefetch_margin_seconds": 1,
+    "users": 8,
+    "streams": 8,
+    "segment_bytes": 2097152,
+    "cache_mib": 128,
+    "ttl_seconds": 30,
+    "origin_mbps": 100
+  },
+  "transformations": [
+    "Deployment IPs replaced with RFC 5737 documentation addresses",
+    "Personal deployment paths and SSH account defaults replaced with example locations/accounts",
+    "Route interface example changed to eth0",
+    "HTTPS test TLS generator path updated for repository layout"
+  ],
+  "algorithm_logic_changed": false,
+  "files": [
+    {
+      "file": "cache/poc.py",
+      "source_sha256": "b15d38a1f871d2ff0a161c4980738b8c9361b70285a4a0a2d8cfa7d133a2d145",
+      "published_sha256": "3d75c88d068a30c1759c5ae3e543b461b3f083f27ba52e0a28bcc7c3f1e4af3d"
+    },
+    {
+      "file": "cache/experiment.py",
+      "source_sha256": "b0643178151d625a60797cc8e5a47a481d92b1e2baafe656a976c9e009424fbc",
+      "published_sha256": "4e0455478dd0490c57d916596ad6683cd3b78ef3f82a0b13c1f95835e9b04d79"
+    },
+    {
+      "file": "cache/cache_transport.py",
+      "source_sha256": "a2c3039af32255d6f6426c09f74731ef7316ee8cd362cbfd3e92043a399679c1",
+      "published_sha256": "a2c3039af32255d6f6426c09f74731ef7316ee8cd362cbfd3e92043a399679c1"
+    },
+    {
+      "file": "cache/cache_api.py",
+      "source_sha256": "eea454367a76a2fcd7f84e0422e295403f9d32573ceb1eb8fea620f6b6787370",
+      "published_sha256": "eea454367a76a2fcd7f84e0422e295403f9d32573ceb1eb8fea620f6b6787370"
+    },
+    {
+      "file": "cache/image_https.py",
+      "source_sha256": "22aeb7ab50494db8bea90fce1eaaa19b1b1c88ecf6e09982316b50ea97ca94d2",
+      "published_sha256": "92bcf72b6e2c170821603fcb8cd9636ddb76a332eefb409e622c29d65a24e512"
+    },
+    {
+      "file": "cache/relay.py",
+      "source_sha256": "e7761d08632f15606910437bd4363947d91ae46259507b57e5ed4585ac56cc52",
+      "published_sha256": "013a1791e3c0ca7803e35912080f17110c2afe94923160033a78c9c89695c471"
+    },
+    {
+      "file": "cache/experiment_report.py",
+      "source_sha256": "9200d6dff63a45fea813e023915e61763ae395838d0b272d46db62329e5bdafd",
+      "published_sha256": "1374735ca6735cd16034eb5abbe374583e046b48a4d34f0ce42c0c6877a91863"
+    },
+    {
+      "file": "cache/experiment-status.py",
+      "source_sha256": "07402643ede04c8b68c1094cce75448ae161da73c952f87416cf8c4597af23e1",
+      "published_sha256": "28d487c83b0a32c90725292c1ff91a532353502605417d9089f166d8ae4d8db9"
+    },
+    {
+      "file": "cache/ontime-cache-route.py",
+      "source_sha256": "9165e6032ce542f4ce4d7bc29efa4d1bda9e7abe93938a8f8af20f96a5275678",
+      "published_sha256": "3555c035de3439879417f4846cc207d32e7fbf97747f273dd492f61426430259"
+    },
+    {
+      "file": "cache/snapshot-margin-baseline.py",
+      "source_sha256": "bc01b0f7cdb5cc6d210cb0eb2bf6a0f6d8efc259afcef03b751c7fa339f49a63",
+      "published_sha256": "744d2cdfb01d9d119881806416705eae9fa9a772c2ff3add2ac91c31f1f84e7b"
+    },
+    {
+      "file": "cache/test_poc.py",
+      "source_sha256": "7f5f1cf7f0983b61ec9915bb811b5cffb4b7d24e7b050f0554cfb30f8f869319",
+      "published_sha256": "7f5f1cf7f0983b61ec9915bb811b5cffb4b7d24e7b050f0554cfb30f8f869319"
+    },
+    {
+      "file": "cache/test_experiment.py",
+      "source_sha256": "540ac43d5f7081300dc3f41703e84f3b96d903ed913ed2739d4e0ce17ac87241",
+      "published_sha256": "540ac43d5f7081300dc3f41703e84f3b96d903ed913ed2739d4e0ce17ac87241"
+    },
+    {
+      "file": "cache/test_https_cache.py",
+      "source_sha256": "b6d6dc1e83932cdb64ede0534b7566954031fbe0f73568be465bf7a9827b055d",
+      "published_sha256": "8a2d03fb1064e5ec11a14a30f839d1ffcadec4d73dad9918b3f65bc4a420a1d2"
+    },
+    {
+      "file": "cache/test_route_policy.py",
+      "source_sha256": "f83be4798ac7595f906b080427f20dc43a318d7d566918d6538349b62d1faa2b",
+      "published_sha256": "106e456a27f26efb63563f6ad486a2a4e658a04ea5026718519ca644d733c06b"
+    }
+  ]
+}
