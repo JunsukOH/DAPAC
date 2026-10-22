@@ -20,7 +20,7 @@ ALGORITHM_REVISION = 'ack-committed-v3'
 DB_NAME = 'experiments-ack-v3.sqlite3'
 
 POLICIES = ('none', 'lru', 'popularity', 'ontime')
-LABELS = dict(zip(POLICIES, ('캐싱 없음', '요청 기반 LRU', '인기도 기반 선반입', '현재 온타임 방식')))
+LABELS = dict(zip(POLICIES, ('No caching', 'Demand-only LRU', 'Popularity-based prefetching', 'On-time caching')))
 
 
 def utc():
